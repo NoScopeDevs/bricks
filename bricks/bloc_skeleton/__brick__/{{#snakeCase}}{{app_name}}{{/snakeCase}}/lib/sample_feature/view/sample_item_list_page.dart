@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/src/generated/assets.gen.dart';
-import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/src/sample_feature/sample_feature.dart';
-import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/src/settings/settings.dart';
+import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/generated/assets.gen.dart';
+import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/sample_feature/sample_feature.dart';
+import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/settings/settings.dart';
 
 /// {@template sample_item_list_page}
 /// Displays a list of `SampleItems`.

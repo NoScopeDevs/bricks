@@ -1,4 +1,4 @@
-# {{app_name}}
+# {{#titleCase}}{{app_name}}{{/titleCase}}
 
 <a href="https://discord.gg/maXe5YsWXH"><img src="https://img.shields.io/discord/870519133899472926.svg?logo=discord" alt="discord"></a>
 
@@ -6,7 +6,7 @@
 
 {{description}}
 
-Generated with the `scoped_app` template by [NoScopeDevs][no_scope_devs_github_link].
+Generated with the `bloc_skeleton` template by [NoScopeDevs][no_scope_devs_github_link]. ⚡️
 
 ---
 
@@ -14,13 +14,19 @@ Generated with the `scoped_app` template by [NoScopeDevs][no_scope_devs_github_l
 
 This project is a starting point for a Flutter application that follows the [Skeleton template][skeleton_pr_link] and [Very Good Ventures][very_good_ventures_link]'s best practices on their [Very Good Core][very_good_core_link] template.
 
-For help getting started with Flutter, take a look at the [online documentation][flutter_docs_link], which offers tutorials, samples, guidance on mobile development, and a full API reference.
+By default, it's generated with no platform folders. So, run the following command to add platforms as you need:
+
+```sh
+flutter create --platforms=<MY_PLATFORM>,<ANOTHER_PLATFORM>
+```
+
+*For help getting started with Flutter, take a look at the [online documentation][flutter_docs_link], which offers tutorials, samples, guidance on mobile development, and a full API reference.*
 
 ### Generating from template 🧱
 
-This project was created using the `scoped_app` [Mason][mason_link] brick.
+This project was created using the `bloc_skeleton` [Mason][mason_link] brick.
 
-You can check `scoped_app` and more scoped bricks at the [`NoScopeDevs/scoped_bricks`][no_scope_devs_scoped_bricks_link] repository.
+You can check `bloc_skeleton` and more scoped bricks at the [`NoScopeDevs/scoped_bricks`][no_scope_devs_scoped_bricks_link] repository.
 
 ## Assets 🎨
 
@@ -36,7 +42,7 @@ We use [flutter_gen][flutter_gen_link] to generate asset classes like `Assets` a
 The configuration for this tool is already on your pubspec. Also the `flutter_gen_runner` is packed, so your asset classes are generated when you run:
 
 ```sh
-dart run build_runner build --delete-conflicting-outputs
+flutter run build_runner build --delete-conflicting-outputs
 ```
 
 Then, to reference the asset you can call:
@@ -113,7 +119,7 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
 
 ### Adding Translations 🔄
 
-To support additional languages, please visit the tutorial on [Internationalizing Flutter apps][internationalizing_flutter_apps_link].
+*To support additional languages, please visit the tutorial on [Internationalizing Flutter apps][internationalizing_flutter_apps_link].*
 
 1. For each supported locale, add a new ARB file in `lib/l10n/arb`.
 

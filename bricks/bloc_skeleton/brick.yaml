@@ -1,0 +1,5 @@
+name: bloc_skeleton
+description: A brick to create a skeleton Flutter app with Bloc.
+vars:
+  - app_name
+  - description
