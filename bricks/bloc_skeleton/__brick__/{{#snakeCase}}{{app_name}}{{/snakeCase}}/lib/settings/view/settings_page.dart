@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/src/l10n/l10n.dart';
-import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/src/settings/settings.dart';
+import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/l10n/l10n.dart';
+import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/settings/settings.dart';
 
 /// {@template settings_page}
 /// Displays the various settings that can be customized by the user.

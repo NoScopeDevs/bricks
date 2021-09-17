@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/src/sample_feature/sample_feature.dart';
-import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/src/settings/settings.dart';
+import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/l10n/l10n.dart';
+import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/sample_feature/sample_feature.dart';
+import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/settings/settings.dart';
 
 /// {@template app}
 /// The widget that handles the dependency injection of your application.
