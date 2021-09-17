@@ -20,7 +20,7 @@ For help getting started with Flutter, take a look at the [online documentation]
 
 This project was created using the `scoped_app` [Mason][mason_link] brick.
 
-You can check `scoped_app` and more bricks at the [`NoScopeDevs/bricks`][no_scope_devs_bricks_link] repository.
+You can check `scoped_app` and more scoped bricks at the [`NoScopeDevs/scoped_bricks`][no_scope_devs_scoped_bricks_link] repository.
 
 ## Assets 🎨
 
@@ -157,8 +157,8 @@ To support additional languages, please visit the tutorial on [Internationalizin
 [internationalization_link]: https://flutter.dev/docs/development/accessibility-and-localization/internationalization
 [internationalizing_flutter_apps_link]: https://flutter.dev/docs/development/accessibility-and-localization/internationalization
 [mason_link]: https://github.com/felangel/mason
-[no_scope_devs_bricks_link]: https://github.com/NoScopeDevs/bricks
 [no_scope_devs_github_link]: https://github.com/NoScopeDevs
+[no_scope_devs_scoped_bricks_link]: https://github.com/NoScopeDevs/scoped_bricks
 [resolution_aware_assets_link]: https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware
 [skeleton_pr_link]: https://github.com/flutter/flutter/pull/83530
 [very_good_analysis_badge]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
