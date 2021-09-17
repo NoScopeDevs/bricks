@@ -28,6 +28,7 @@ bricks:
 
 ## Brick Templates 🧱
 
-| Brick Name            | Description                                      |
-| --------------------- | ------------------------------------------------ |
-| scoped_app            | Create a new, opinionated Flutter Skeleton app   |
+| Brick Name            | Description                                              |
+| --------------------- | -------------------------------------------------------- |
+| bloc_skeleton         | Create an opinionated Flutter Skeleton app with Bloc     |
+| riverpod_skeleton     | Create an opinionated Flutter Skeleton app with Riverpod |
