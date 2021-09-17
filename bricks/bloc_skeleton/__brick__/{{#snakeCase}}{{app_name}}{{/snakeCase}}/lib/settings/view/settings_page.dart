@@ -44,7 +44,7 @@ class ThemeModeDropdown extends StatelessWidget {
       selector: (state) => state.themeMode,
       builder: (context, state) {
         return DropdownButton<ThemeMode>(
-          // Read the selected themeMode from the controller
+          // Read the selected `themeMode` from the bloc.
           value: state,
           // Add `SettingsThemeModeChanged` event to `SettingsBloc`
           // any time the user selects a theme.
