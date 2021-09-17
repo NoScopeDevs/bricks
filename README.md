@@ -1,18 +1,13 @@
-# 🧱 Scoped Bricks
+# 🧱 Bricks
 
-<a href="https://discord.gg/maXe5YsWXH"><img src="https://img.shields.io/discord/870519133899472926.svg?logo=discord" alt="discord"></a>
+[![style: discord][discord_badge]][discord_link]
+[![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
 
-Our [Mason][mason_link] brick templates to build projects.
+[Mason][mason_link] brick templates to build no scoped projects.
 
-[mason_link]: https://github.com/felangel/mason
+## Getting started 🚀
 
-## Getting Started 🚀
-
-To install one or more bricks globally, use the following command:
-
-```sh
-$ mason i https://github.com/NoScopeDevs/scoped_bricks --path bricks/<BRICK_NAME>
-```
+### Install locally 🏠
 
 To install one or more bricks locally, add them to your directory's `mason.yaml`:
 
@@ -20,15 +15,30 @@ To install one or more bricks locally, add them to your directory's `mason.yaml`
 bricks:
   <BRICK_NAME>:
     git:
-      url: https://github.com/NoScopeDevs/scoped_bricks
+      url: https://github.com/NoScopeDevs/bricks
       path: bricks/<BRICK_NAME>
+```
+
+### Install globally 🗺
+
+To install one or more bricks globally, use the following command:
+
+```sh
+$ mason i https://github.com/NoScopeDevs/bricks --path bricks/<BRICK_NAME>
 ```
 
 *Note: Be sure to replace `<BRICK_NAME>` with one of the following bricks:*
 
-## Brick Templates 🧱
+## Available bricks 🧱
 
 | Brick Name            | Description                                              |
 | --------------------- | -------------------------------------------------------- |
 | bloc_skeleton         | Create an opinionated Flutter Skeleton app with Bloc     |
 | riverpod_skeleton     | Create an opinionated Flutter Skeleton app with Riverpod |
+
+
+[discord_badge]: https://img.shields.io/discord/870519133899472926.svg?logo=discord
+[discord_link]: https://discord.gg/maXe5YsWXH
+[mason_link]: https://github.com/felangel/mason
+[very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
+[very_good_analysis_badge]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
