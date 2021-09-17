@@ -1,7 +1,6 @@
 # {{#titleCase}}{{app_name}}{{/titleCase}}
 
-<a href="https://discord.gg/maXe5YsWXH"><img src="https://img.shields.io/discord/870519133899472926.svg?logo=discord" alt="discord"></a>
-
+[![style: discord][discord_badge]][discord_link]
 [![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
 
 {{description}}
@@ -163,6 +162,8 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
 ```
 
 
+[discord_badge]: https://img.shields.io/discord/870519133899472926.svg?logo=discord
+[discord_link]: https://discord.gg/maXe5YsWXH
 [flutter_docs_link]: https://flutter.dev/docs
 [flutter_gen_link]: https://pub.dev/packages/flutter_gen
 [flutter_localizations_link]: https://api.flutter.dev/flutter/flutter_localizations/flutter_localizations-library.html
