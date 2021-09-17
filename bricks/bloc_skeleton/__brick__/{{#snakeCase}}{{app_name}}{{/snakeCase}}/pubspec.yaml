@@ -36,4 +36,4 @@ flutter:
 
 flutter_gen:
   # By default, the generate files are in `lib/gen/`
-  output: lib/src/generated
+  output: lib/generated
