@@ -31,9 +31,10 @@ $ mason i https://github.com/NoScopeDevs/bricks --path bricks/<BRICK_NAME>
 
 ## Available bricks 🧱
 
-| Brick Name            | Description                                      |
-| --------------------- | ------------------------------------------------ |
-| scoped_app            | Create a new, opinionated Flutter Skeleton app   |
+| Brick Name            | Description                                              |
+| --------------------- | -------------------------------------------------------- |
+| bloc_skeleton         | Create an opinionated Flutter Skeleton app with Bloc     |
+| riverpod_skeleton     | Create an opinionated Flutter Skeleton app with Riverpod |
 
 
 [discord_badge]: https://img.shields.io/discord/870519133899472926.svg?logo=discord

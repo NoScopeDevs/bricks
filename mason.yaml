@@ -1,3 +1,5 @@
 bricks:
   bloc_skeleton:
     path: bricks/bloc_skeleton
+  riverpod_skeleton:
+    path: bricks/riverpod_skeleton

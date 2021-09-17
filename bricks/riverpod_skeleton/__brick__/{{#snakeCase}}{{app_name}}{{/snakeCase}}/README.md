@@ -6,13 +6,13 @@
 
 {{description}}
 
-Generated with the `bloc_skeleton` template by [NoScopeDevs][no_scope_devs_github_link]. ⚡️
+Generated with the `riverpod_skeleton` template by [NoScopeDevs][no_scope_devs_github_link]. ⚡️
 
 ---
 
 ## Getting Started 🚀
 
-This project is a starting point for a Flutter application that follows the [Skeleton template][skeleton_pr_link] and [Very Good Ventures][very_good_ventures_link]'s best practices on their [Very Good Core][very_good_core_link] template.
+This project is a starting point for a Flutter application that follows the [Skeleton template][skeleton_pr_link] and [Very Good Ventures][very_good_ventures_link]'s best practices on their [Very Good Core][very_good_core_link] template applied to the [Riverpod][riverpod_link] package.
 
 By default, it's generated with no platform folders. So, run the following command to add platforms as you need:
 
@@ -30,9 +30,9 @@ flutter create .
 
 ### Generating from template 🧱
 
-This project was created using the `bloc_skeleton` [Mason][mason_link] brick.
+This project was created using the `riverpod_skeleton` [Mason][mason_link] brick.
 
-You can check `bloc_skeleton` and more scoped bricks at the [`NoScopeDevs/scoped_bricks`][no_scope_devs_scoped_bricks_link] repository.
+You can check `riverpod_skeleton` and more scoped bricks at the [`NoScopeDevs/scoped_bricks`][no_scope_devs_scoped_bricks_link] repository.
 
 ## Assets 🎨
 
@@ -172,6 +172,7 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
 [no_scope_devs_github_link]: https://github.com/NoScopeDevs
 [no_scope_devs_scoped_bricks_link]: https://github.com/NoScopeDevs/scoped_bricks
 [resolution_aware_assets_link]: https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware
+[riverpod_link]: https://riverpod.dev/
 [skeleton_pr_link]: https://github.com/flutter/flutter/pull/83530
 [very_good_analysis_badge]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
 [very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
