@@ -1,0 +1,19 @@
+{
+  "@@locale": "en",
+  "appTitle": "{{app_name}}",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "systemTheme": "System Theme",
+  "@systemTheme": {
+    "description": "Label for system theme"
+  },
+  "lightTheme": "Light Theme",
+  "@lightTheme": {
+    "description": "Label for light theme"
+  },
+  "darkTheme": "Dark Theme",
+  "@darkTheme": {
+    "description": "Label for dark theme"
+  }
+}

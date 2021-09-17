@@ -1,0 +1,5 @@
+name: scoped_app
+description: A brick to create a base Flutter app.
+vars:
+  - app_name
+  - description
