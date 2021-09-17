@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/app/app_provider_observer.dart';
 import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/l10n/l10n.dart';
 import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/sample_feature/sample_feature.dart';
 import 'package:{{#snakeCase}}{{app_name}}{{/snakeCase}}/settings/settings.dart';
@@ -14,12 +15,8 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiBlocProvider(
-      providers: [
-        BlocProvider(
-          create: (context) => SettingsBloc(),
-        ),
-      ],
+    return ProviderScope(
+      observers: [AppProviderObserver()],
       child: const AppView(),
     );
   }
@@ -28,12 +25,12 @@ class App extends StatelessWidget {
 /// {@template app_view}
 /// The widget that configures your application.
 /// {@endtemplate}
-class AppView extends StatelessWidget {
+class AppView extends ConsumerWidget {
   /// {@macro app_view}
   const AppView({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp(
       // Providing a `restorationScopeId` allows the `Navigator` built by the
       // `MaterialApp` to restore the navigation stack when a user leaves and
@@ -59,12 +56,13 @@ class AppView extends StatelessWidget {
       // directory.
       onGenerateTitle: (context) => AppLocalizations.of(context).appTitle,
 
-      // Define a light and dark color theme. Then, read the user's
-      // preferred ThemeMode (light, dark, or system default) from the
-      // `SettingsBloc` to display the correct theme.
+      // Define a light and dark color theme.
+      // Then, read the user's preferred `ThemeMode`
+      // (light, dark, or system default) from the
+      // `settingsProvider` to display the correct theme.
       theme: ThemeData(),
       darkTheme: ThemeData.dark(),
-      themeMode: context.select((SettingsBloc bloc) => bloc.state.themeMode),
+      themeMode: ref.watch(settingsProvider).themeMode,
 
       // Define a function to handle named routes in order to support
       // Flutter web url navigation and deep linking.

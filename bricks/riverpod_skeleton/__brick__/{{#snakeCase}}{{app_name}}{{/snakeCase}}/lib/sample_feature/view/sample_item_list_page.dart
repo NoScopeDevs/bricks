@@ -51,7 +51,6 @@ class SampleItemListPage extends StatelessWidget {
         itemCount: items.length,
         itemBuilder: (BuildContext context, int index) {
           final item = items[index];
-
           return ListTile(
             title: Text('SampleItem ${item.id}'),
             leading: CircleAvatar(
