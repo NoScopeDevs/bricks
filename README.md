@@ -2,7 +2,7 @@
 
 <a href="https://discord.gg/maXe5YsWXH"><img src="https://img.shields.io/discord/870519133899472926.svg?logo=discord" alt="discord"></a>
 
-Find and use [Mason][mason_link] brick templates to build projects.
+Our [Mason][mason_link] brick templates to build projects.
 
 [mason_link]: https://github.com/felangel/mason
 
@@ -11,7 +11,7 @@ Find and use [Mason][mason_link] brick templates to build projects.
 To install one or more bricks globally, use the following command:
 
 ```sh
-$ mason i https://github.com/brick-hub/brick-hub --path bricks/<BRICK_NAME>
+$ mason i https://github.com/NoScopeDevs/scoped_bricks --path bricks/<BRICK_NAME>
 ```
 
 To install one or more bricks locally, add them to your directory's `mason.yaml`:
@@ -24,7 +24,7 @@ bricks:
       path: bricks/<BRICK_NAME>
 ```
 
-**NOTE: Be sure to replace <BRICK_NAME> with one of the following bricks.**
+*Note: Be sure to replace `<BRICK_NAME>` with one of the following bricks:*
 
 ## Brick Templates 🧱
 
